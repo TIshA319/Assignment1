@@ -1,0 +1,244 @@
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+header{
+    width: 1600px;
+
+}
+
+nav .text{
+    list-style: none;
+    display: flex;
+    font-size: 16px;
+    gap: 32px;
+
+}
+nav{
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav .logo{
+   
+    width: 139px; 
+}
+.btn{
+    background-color: #30b868;
+    border: none;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600px;
+
+}
+.trans-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600px;
+}
+button:hover{
+    cursor: pointer;
+    color: #627382;
+}
+
+#banner{
+    margin: 0 auto;
+    background-image: url(assets/hero-bg.png);
+    width: 1600px;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#banner .banner-container {
+    padding-top: 115px;
+    padding-bottom: 230px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    
+}
+#banner .banner-container .heading{
+   font-size: 30px;
+   font-weight: 700px;
+   
+}
+.banner-container .banner-content{
+    color: #FFFFFF;
+    
+    
+}
+#banner .banner-container .heading .green{
+    color: #30b868;
+    
+}
+/* #banner .banner-container .bttn button{
+
+    padding: 12px 16px;
+} */
+#note .note-info{
+  display: flex;
+  justify-content: center;
+   gap: 24px;
+
+}
+#note .note-container {
+    text-align:center  ;
+    margin-bottom: 44px;  
+
+}
+#note .note-container .note-header h1{
+    padding-top: 30px;
+    font-size: 48px;
+    margin: 0 auto;
+}
+#note .note-container .note-header p{
+    color: #627382;
+    margin-bottom: 44px;
+}
+#note{
+    width: 1600px;
+    align-items: center;
+}
+#note .note-info {
+    width: 1360px;
+    padding: 0 120px;
+}
+#note .note-info .note-card{
+    width: 322px;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0 0 8px 0 #00000011;
+    border-radius: 5px;
+    padding-bottom: 55px;
+    
+    
+}
+.note-info .note-card img{
+
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #F95555;
+    margin:79px 31px 0;
+    padding:13px ;
+}
+.note-info .note-card h3{
+    width: 274px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+.note-info .note-card p{
+    color: #627382;
+    font-size: 16px;
+    width: 274px;
+    margin: 0 auto;
+
+}
+#soluation{
+    width: 1360px;
+    margin: 120px;
+}
+#soluation .soluation-info{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+#soluation .soluation-info .soluation-img img{
+    width: 600px;
+    height: 600px;
+}
+#soluation .soluation-info .soluation-data{
+
+    padding: 120px 0;
+}
+#soluation .soluation-info .soluation-data h1{
+    font-size: 48px;
+    width: 500px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+
+    
+}
+#soluation .soluation-data p{
+    width: 450px;
+    font-size: 16px;
+    color: #627382;
+}
+#soluation .soluation-data .para1{
+    color: #30B868;
+    font-size: medium;
+}
+#soluation .soluation-data .icon {
+    list-style: none;
+    padding: 0;
+}
+#challange .challange-content{
+    width: 1600;
+    text-align: center;
+    margin: 0 120px 120px;
+}
+.challange-content{
+    width: 1360px;
+    height: 384px;
+    background-color: #F7F6F2;
+}
+#challange .challange-content .text{
+    padding-top: 80px;
+}
+.text p , .access p{
+    font-size: 16px;
+    color: #627382;
+}
+#footer{
+    width: 1600px;
+    height: 348px;
+    background-color: #001931;
+    color: white;
+}
+#footer .footer-content{
+    width: 70%;
+    max-width: 1360px;
+    height: 28px;
+    display: flex;
+    justify-content:space-between;
+    
+    /* justify-content: space-between; */
+    padding: 120px 120px;
+}
+#footer .footer-links .link{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+    
+.footer-links .link a{
+    
+    background-color: white;
+    border-radius: 50px;
+}
+#footer .footer-links p{
+    font-size: 20px;
+    
+}
+#footer .copyright{
+    padding:0 120px 0;
+    text-align: center;
+}
+#footer .copyright hr{
+    color: #627382;
+    
+}
